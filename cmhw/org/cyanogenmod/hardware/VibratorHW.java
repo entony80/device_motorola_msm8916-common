@@ -40,7 +40,7 @@ public class VibratorHW {
         return -1;
     }
     public static int getCurIntensity()  {
-        return Integer.parseInt(FileUtils.readOneLine(LEVEL_PATH))
+        return Integer.parseInt(FileUtils.readOneLine(LEVEL_PATH));
     }
     public static int getDefaultIntensity()  {
         return 24;
