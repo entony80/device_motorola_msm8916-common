@@ -51,9 +51,6 @@
             <intent-filter>
                 <action android:name="com.cyanogenmod.action.LAUNCH_TOUCHSCREEN_GESTURE_SETTINGS" />
             </intent-filter>
-			<meta-data
- -              android:name="com.android.settings.title"
- -              android:resource="@string/screen_gestures_panel_title"/>
         </activity>
 
     </application>
